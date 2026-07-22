@@ -9,6 +9,11 @@ ChatGPT-style Streamlit GUI.
 fine-tuned `Helsinki-NLP/opus-mt-en-ur` 22.50 BLEU. See `report/report.tex`
 for the full writeup, methodology, and discussion.
 
+Trained checkpoints (`transformer_best.pt`, `lstm_best.pt`) aren't committed
+to the repo to keep clones light — grab them from the
+[v1.0.0 release](https://github.com/Hassan-Younas18/transformer-vs-lstm-urdu-translation/releases/tag/v1.0.0)
+and drop both into `artifacts/checkpoints/` to run the GUI without retraining.
+
 ## Project layout
 
 ```
@@ -76,6 +81,10 @@ translations). Note: `rouge_score`'s default tokenizer only matches
 to `RougeScorer` explicitly to avoid this.
 
 ## Running the GUI
+
+Requires checkpoints in `artifacts/checkpoints/` — either train them
+yourself (above) or download from the
+[v1.0.0 release](https://github.com/Hassan-Younas18/transformer-vs-lstm-urdu-translation/releases/tag/v1.0.0).
 
 ```bash
 streamlit run app/streamlit_app.py
