@@ -1,0 +1,15 @@
+{
+  "model": "transformer",
+  "bleu": 3.8692240711277606,
+  "rouge1_f": 0.32234163792619064,
+  "rouge2_f": 0.08248215847477433,
+  "rougeL_f": 0.26589795191109966,
+  "perplexity": 76.65328688773876,
+  "test_loss": 4.339292486169317,
+  "n_params": 13524800,
+  "inference_sentences_per_sec": 1.5911675251518163,
+  "inference_mem_delta_mb": -19.648511999999982,
+  "training_time_sec": 530.8328423500061,
+  "peak_gpu_mem_mb": 3942.071296,
+  "device": "cpu"
+}

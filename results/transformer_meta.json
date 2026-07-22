@@ -1,0 +1,9 @@
+{
+  "model": "transformer",
+  "n_params": 13524800,
+  "best_val_loss": 4.6998162018063185,
+  "training_time_sec": 530.8328423500061,
+  "peak_gpu_mem_mb": 3942.071296,
+  "device": "cuda",
+  "epochs_run": 18
+}

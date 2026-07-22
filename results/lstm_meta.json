@@ -1,0 +1,9 @@
+{
+  "model": "lstm",
+  "n_params": 22696768,
+  "best_val_loss": 4.720088351418047,
+  "training_time_sec": 3491.801408290863,
+  "peak_gpu_mem_mb": 3942.071296,
+  "device": "cuda",
+  "epochs_run": 26
+}

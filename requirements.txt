@@ -1,0 +1,15 @@
+torch>=2.2
+tokenizers>=0.19
+transformers>=4.40
+datasets>=2.19
+sentencepiece>=0.2
+sacrebleu>=2.4
+rouge-score>=0.1.2
+streamlit>=1.35
+matplotlib>=3.8
+pandas>=2.2
+numpy>=1.26
+psutil>=5.9
+tqdm>=4.66
+arabic-reshaper>=3.0
+python-bidi>=0.4

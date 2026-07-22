@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large / regeneratable data & model artifacts
+data/raw/
+artifacts/checkpoints/*.pt
+
+# Build/scratch outputs
+outputs (1).zip
+UMC005_NMT_Report_Overleaf.zip
+dump_out.txt
+gui_test_dump.txt
+
+# Course material (not authored by this project)
+Assignment#3.pdf
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Harness/session-local state
+.claude/

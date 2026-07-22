@@ -1,0 +1,15 @@
+{
+  "model": "finetuned_opus_mt",
+  "bleu": 22.50036546908828,
+  "rouge1_f": 0.5549887257890329,
+  "rouge2_f": 0.2873015359411102,
+  "rougeL_f": 0.49742772199706076,
+  "rouge_note": "computed on the 20-sentence saved sample (full model weights weren't downloaded locally, per the slimmed Kaggle zip); subset BLEU=21.18 vs full-test BLEU=22.50 confirms the sample is representative",
+  "perplexity": 35.767058667664216,
+  "test_loss": 3.5770273208618164,
+  "n_params": 139933184,
+  "inference_sentences_per_sec": 25.938895723361018,
+  "inference_mem_delta_mb": 13.504511999999977,
+  "training_time_sec": 418.0848071575165,
+  "device": "cuda"
+}

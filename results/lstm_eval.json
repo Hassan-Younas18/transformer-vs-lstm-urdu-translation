@@ -1,0 +1,15 @@
+{
+  "model": "lstm",
+  "bleu": 5.452695331947888,
+  "rouge1_f": 0.36013000946938645,
+  "rouge2_f": 0.09595074515513498,
+  "rougeL_f": 0.3076272163651243,
+  "perplexity": 80.40139680489999,
+  "test_loss": 4.387031549229282,
+  "n_params": 22696768,
+  "inference_sentences_per_sec": 4.730626958241578,
+  "inference_mem_delta_mb": 11.259904000000006,
+  "training_time_sec": 3491.801408290863,
+  "peak_gpu_mem_mb": 3942.071296,
+  "device": "cpu"
+}
