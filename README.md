@@ -6,7 +6,8 @@ MarianMT model, with BLEU/ROUGE evaluation, attention visualization, and a
 ChatGPT-style Streamlit GUI.
 
 **Results on the held-out test set:** Transformer 3.87 BLEU, LSTM 5.45 BLEU,
-fine-tuned `Helsinki-NLP/opus-mt-en-ur` 22.50 BLEU. See `report/report.tex`
+fine-tuned `Helsinki-NLP/opus-mt-en-ur` 22.50 BLEU. See
+[`report/report.pdf`](report/report.pdf) (or the source, `report/report.tex`)
 for the full writeup, methodology, and discussion.
 
 Trained checkpoints (`transformer_best.pt`, `lstm_best.pt`) aren't committed
